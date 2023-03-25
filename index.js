@@ -9,6 +9,6 @@ app.get('/', function (req, res) { // create route
 });
 
 if (!module.parent) { // if this is the main module
-    app.listen(3000) // listen on port 3000
-    console.log('Express started on port 3000') // log to console
+    app.listen(80) // listen on port 80
+    console.log('Express started on port 80') // log to console
 }

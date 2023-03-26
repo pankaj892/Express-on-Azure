@@ -1,12 +1,9 @@
-terraform {
-    required_providers {
-        azurerm = {
-            source = "hashicorp/azurerm"
-            version = ">= 3.0.0"
-        }
-    }
-    required_version = ">= 1.1.0"
+provider "azurerm" {
+  features {}
+}
 
+
+terraform {
     cloud {
         organization = "IAC-pipeline12"
 
@@ -16,9 +13,6 @@ terraform {
     }
 }
 
-    provider "azurerm" {
-  features {}
-}
 
 
 resource "azurerm_container_registry" "example" {

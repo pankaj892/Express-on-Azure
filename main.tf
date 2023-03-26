@@ -34,5 +34,5 @@ data "azurerm_container_registry" "example" {
 }
 
 output "login_server" {
-  value = mycontainer892.azurecr.io
+  value = "mycontainer892.azurecr.io"
 }

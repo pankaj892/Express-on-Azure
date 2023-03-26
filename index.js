@@ -5,7 +5,7 @@ var express = require('express') // import express
 var app = module.exports = express() // create express app
 
 app.get('/', function (req, res) { // create route
-    res.send('Hello World!') // send response
+    res.send('GoodBye World!') // send response
 });
 
 if (!module.parent) { // if this is the main module

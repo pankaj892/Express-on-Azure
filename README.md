@@ -5,4 +5,4 @@ This express app is a simple web app that displays a message on the browser. It 
 The app is deployed to Azure Container Instance using GitHub Actions. The action builds the docker file and pushes the image to Azure Container Registry. The action then deploys the app to Azure Container Instance. 
 
 # Update 
-This project has been terminated and will not be updated further so CI/CD will fail
+This project has been terminated and will not be updated further so CI/CD won't work
